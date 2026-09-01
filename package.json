@@ -1,15 +1,12 @@
 {
-  "name": "fd56-roblox-ai",
+  "name": "fd56-ai",
   "version": "1.0.0",
-  "description": "FD_56 AI Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "cors": "^2.8.5",
-    "@google/genai": "latest"
+    "express": "^4.19.2"
   }
 }
 
