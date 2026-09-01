@@ -1,11 +1,14 @@
 {
-  "name": "fd56-ai",
+  "name": "fd56-roblox-ai",
   "version": "1.0.0",
+  "description": "FD_56 Elite AI System powered by Gemini",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "@google/genai": "^0.1.1",
+    "cors": "^2.8.5",
     "express": "^4.19.2"
   }
 }
