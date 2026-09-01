@@ -1,16 +1,17 @@
 {
   "name": "fd56-roblox-ai",
   "version": "1.0.0",
-  "description": "Real Gemini AI integration for FD_56",
+  "description": "FD_56 AI Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "@google/genai": "latest",
-    "cors": "latest",
-    "express": "latest"
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "@google/genai": "^0.1.1"
   }
 }
+
 
 
