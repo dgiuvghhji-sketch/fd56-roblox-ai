@@ -1,1 +1,18 @@
-u
+{
+  "name": "fd-language",
+  "version": "0.1.0",
+  "description": "FD Programming Language by FD_56",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "FD_56",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
